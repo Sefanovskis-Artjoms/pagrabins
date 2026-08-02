@@ -4,7 +4,10 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { notFound } from "next/navigation";
 import { Footer } from "./_components/Footer/Footer";
 import { Header } from "./_components/Header/Header";
-import { routing } from "@/i18n/routing";
+import { RestaurantJsonLd } from "./_components/RestaurantJsonLd/RestaurantJsonLd";
+import { routing, type Locale } from "@/i18n/routing";
+import { getLocaleAlternates, ogLocale } from "@/lib/seo";
+import { siteConfig } from "@/lib/site";
 import "@/fonts/fonts.css";
 import "../globals.css";
 
@@ -26,8 +29,10 @@ export const viewport: Viewport = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const alternates = getLocaleAlternates("/", locale as Locale);
 
   return {
+    metadataBase: new URL(siteConfig.url),
     title: {
       default: t("title"),
       template: `%s | ${t("title")}`,
@@ -38,6 +43,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         url: "/icons/icon.svg",
         type: "image/svg+xml",
       },
+    },
+    alternates,
+    openGraph: {
+      type: "website",
+      locale: ogLocale(locale),
+      siteName: t("title"),
+      title: t("title"),
+      description: t("description"),
+      url: alternates.canonical,
+      images: [
+        {
+          url: siteConfig.ogImage,
+          alt: t("ogImageAlt"),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: [siteConfig.ogImage],
     },
   };
 }
@@ -51,10 +77,16 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return (
     <html lang={locale} className="site">
       <body className="site__body">
+        <RestaurantJsonLd
+          locale={locale}
+          name={t("title")}
+          description={t("description")}
+        />
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="site__main">{children}</main>

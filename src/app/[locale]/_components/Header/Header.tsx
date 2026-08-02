@@ -22,7 +22,7 @@ export function Header() {
           <Link href="/" className="header__logo-link">
             <Image
               src="/icons/logo-2.svg"
-              alt="Pagrabiņš"
+              alt={t("logoAlt")}
               width={183}
               height={40}
               priority

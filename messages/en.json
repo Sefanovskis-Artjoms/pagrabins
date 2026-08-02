@@ -1,11 +1,15 @@
 {
   "Metadata": {
     "title": "Pagrabins",
-    "description": "A small café with a warm atmosphere."
+    "description": "Pagrabins café in Kuldīga — warm atmosphere, menu and hospitality at 5 Baznīcas Street.",
+    "menuTitle": "Menu",
+    "menuDescription": "The Pagrabins menu in Kuldīga — starters, mains, desserts and drinks.",
+    "ogImageAlt": "Exterior of the Pagrabins restaurant in Kuldīga"
   },
   "Header": {
     "home": "Home",
-    "menu": "Menu"
+    "menu": "Menu",
+    "logoAlt": "Pagrabins"
   },
   "Footer": {
     "authorLabel": "Website author"

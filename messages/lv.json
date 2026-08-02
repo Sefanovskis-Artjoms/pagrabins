@@ -1,11 +1,15 @@
 {
   "Metadata": {
     "title": "Pagrabiņš",
-    "description": "Maza kafejnīca ar siltu atmosfēru."
+    "description": "Kafejnīca Pagrabiņš Kuldīgā — silta atmosfēra, ēdienkarte un viesmīlība Baznīcas ielā 5.",
+    "menuTitle": "Ēdienkarte",
+    "menuDescription": "Pagrabiņa ēdienkarte Kuldīgā — uzkodas, galvenie ēdieni, deserti un dzērieni.",
+    "ogImageAlt": "Restorāna Pagrabiņš ēka Kuldīgā"
   },
   "Header": {
     "home": "Sākums",
-    "menu": "Ēdienkarte"
+    "menu": "Ēdienkarte",
+    "logoAlt": "Pagrabiņš"
   },
   "Footer": {
     "authorLabel": "Mājaslapas autors"

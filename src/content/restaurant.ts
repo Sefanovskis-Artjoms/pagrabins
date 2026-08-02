@@ -17,3 +17,29 @@ export const company = {
   address: "Mucenieku iela 30-31, Kuldīga, LV-3301",
   iban: "LV42HABA0551015133589",
 };
+
+/** Venue address shown to guests (not the legal entity address). */
+export const venue = {
+  streetAddress: "Baznīcas iela 5",
+  addressLocality: "Kuldīga",
+  postalCode: "LV-3301",
+  addressCountry: "LV",
+} as const;
+
+export const openingHours = [
+  {
+    days: ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    opens: "11:00",
+    closes: "22:00",
+  },
+  {
+    days: ["Friday", "Saturday"],
+    opens: "11:00",
+    closes: "00:00",
+  },
+  {
+    days: ["Sunday"],
+    opens: "11:00",
+    closes: "21:00",
+  },
+] as const;
