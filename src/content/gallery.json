@@ -6,98 +6,126 @@
       "file": "pagrabins-no-malas.jpg",
       "altKey": "pagrabins-no-malas",
       "colSpan": 2,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 960,
+      "height": 636
     },
     {
       "id": "pagrabins-pa-nakti",
       "file": "pagrabins-pa-nakti.jpg",
       "altKey": "pagrabins-pa-nakti",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 1040,
+      "height": 1560
     },
     {
       "id": "galds-ar-naskiem",
       "file": "galds ar naskiem.jpg",
       "altKey": "galds-ar-naskiem",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 1638,
+      "height": 2048
     },
     {
       "id": "galds-ieksa",
       "file": "galds-ieksa.jpg",
       "altKey": "galds-ieksa",
       "colSpan": 1,
-      "rowSpan": 2
+      "rowSpan": 2,
+      "width": 640,
+      "height": 960
     },
     {
       "id": "viesmili-pie-letes",
       "file": "viesmili-pie-letes.jpg",
       "altKey": "viesmili-pie-letes",
       "colSpan": 2,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 960,
+      "height": 720
     },
     {
       "id": "deserts",
       "file": "deserts.jpg",
       "altKey": "deserts",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 960,
+      "height": 720
     },
     {
       "id": "koktelis",
       "file": "koktelis.jpg",
       "altKey": "koktelis",
       "colSpan": 1,
-      "rowSpan": 2
+      "rowSpan": 2,
+      "width": 720,
+      "height": 960
     },
     {
       "id": "terase",
       "file": "terase.jpg",
       "altKey": "terase",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 720,
+      "height": 960
     },
     {
       "id": "svetku-galds",
       "file": "svetku-galds.jpg",
       "altKey": "svetku-galds",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 1638,
+      "height": 2048
     },
     {
       "id": "edienkartes-vakods",
       "file": "edienkartes-vakods.jpg",
       "altKey": "edienkartes-vakods",
       "colSpan": 1,
-      "rowSpan": 2
+      "rowSpan": 2,
+      "width": 640,
+      "height": 960
     },
     {
       "id": "kokteli",
       "file": "kokteli.jpg",
       "altKey": "kokteli",
       "colSpan": 1,
-      "rowSpan": 2
+      "rowSpan": 2,
+      "width": 1152,
+      "height": 2048
     },
     {
       "id": "sturitis",
       "file": "sturitis.png",
       "altKey": "sturitis",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 533,
+      "height": 800
     },
     {
       "id": "bankets",
       "file": "bankets.jpg",
       "altKey": "bankets",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 720,
+      "height": 960
     },
     {
       "id": "glauns-ediens",
       "file": "glauns-ediens.jpg",
       "altKey": "glauns-ediens",
       "colSpan": 1,
-      "rowSpan": 1
+      "rowSpan": 1,
+      "width": 1536,
+      "height": 2048
     }
   ]
 }
