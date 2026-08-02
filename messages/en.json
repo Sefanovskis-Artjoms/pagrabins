@@ -1,0 +1,418 @@
+{
+  "Metadata": {
+    "title": "Pagrabins",
+    "description": "A small café with a warm atmosphere."
+  },
+  "Header": {
+    "home": "Home",
+    "menu": "Menu"
+  },
+  "Footer": {
+    "authorLabel": "Website author"
+  },
+  "Language": {
+    "label": "Language",
+    "close": "Close",
+    "names": {
+      "lv": "Latvian",
+      "en": "English"
+    }
+  },
+  "Home": {
+    "label": "Café",
+    "title": "Pagrabins",
+    "hashtag1": "#The happy don't count time,",
+    "hashtag2": "#The happy know how to use it, enjoy...",
+    "ctaMenu": "View menu",
+    "videoTitle": "Pagrabins — video",
+    "visit": {
+      "title": "Visit us",
+      "hoursLabel": "Hours",
+      "hours": {
+        "monThu": { "days": "Mon–Thu", "time": "11–22" },
+        "friSat": { "days": "Fri–Sat", "time": "11–24" },
+        "sun": { "days": "Sun", "time": "11–21" }
+      },
+      "addressLabel": "Our address",
+      "address": "5 Baznīcas Street, Kuldīga",
+      "copyAddress": "Copy address",
+      "copied": "Address copied",
+      "mapLabel": "Café location on the map",
+      "contacts": {
+        "title": "Contacts",
+        "phoneLabel": "Phone",
+        "mobileLabel": "Mobile",
+        "emailLabel": "Email",
+        "facebookLabel": "Facebook"
+      },
+      "goodToKnow": {
+        "title": "Good to know",
+        "points": [
+          "If you wish to stay in our premises after opening hours, the fee is €20.00/h.",
+          "If you bring your own alcoholic drinks, the fee is €15.00/h.",
+          "Parents are responsible for children's safety!"
+        ]
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "lightbox": {
+        "close": "Close",
+        "previous": "Previous image",
+        "next": "Next image"
+      },
+      "items": {
+        "pagrabins-no-malas": "Exterior view of the Pagrabins restaurant",
+        "pagrabins-pa-nakti": "Pagrabins restaurant lit up in the evening",
+        "galds-ar-naskiem": "Elegantly plated appetizer on a set table",
+        "galds-ieksa": "Served table in the restaurant interior",
+        "viesmili-pie-letes": "Waiters at the bar counter",
+        "deserts": "Restaurant dessert",
+        "koktelis": "Cocktail prepared by the bartender",
+        "terase": "Outdoor terrace",
+        "svetku-galds": "Table set for a celebration",
+        "edienkartes-vakods": "Restaurant menu",
+        "kokteli": "Three cocktails",
+        "sturitis": "Cozy corner inside the restaurant",
+        "bankets": "Hall prepared for a banquet",
+        "glauns-ediens": "Elegantly plated dish"
+      }
+    }
+  },
+  "MenuPage": {
+    "title": "Menu",
+    "categories": {
+      "tab": "Categories",
+      "title": "Categories",
+      "close": "Close"
+    },
+    "sections": {
+      "pagrabina-izlase": "Pagrabiņš selection",
+      "kuldigas-garsa": "Taste of Kuldīga",
+      "pagrabina-klasika": "Pagrabiņš classics",
+      "aukstas-uzkodas": "Cold appetizers",
+      "salati": "Salads",
+      "zupas": "Soups",
+      "vegetarie": "Vegetarian dishes",
+      "siltie-galas": "Hot meat dishes",
+      "siltie-zivju": "Hot fish dishes",
+      "saldie": "Desserts",
+      "piedevas": "Sides",
+      "mercites": "Sauces",
+      "dzerieni": "Drinks",
+      "allergeni": "Allergens"
+    },
+    "allergens": {
+      "title": "Products containing allergens",
+      "1": "Cereals containing gluten",
+      "2": "Crustaceans and products thereof",
+      "3": "Eggs and products thereof",
+      "4": "Fish and products thereof",
+      "5": "Nuts and products thereof",
+      "6": "Soybeans and products thereof",
+      "7": "Milk and products thereof",
+      "8": "Celery and products thereof",
+      "9": "Mustard and products thereof",
+      "10": "Sesame seeds and products thereof",
+      "11": "Molluscs and products thereof"
+    },
+    "items": {
+      "kurzemes-skabputra": {
+        "name": "Kurzeme sour porridge",
+        "description": "Barley groats, fermented milk"
+      },
+      "podins-zirnitis": {
+        "name": "Pot \"Zirnītis\"",
+        "description": "Grey peas, smoked pork belly, cream"
+      },
+      "bukstinputra-ar-bekonu": {
+        "name": "Bukstiņputra with bacon"
+      },
+      "silke-ar-biezpienu-un-kartupeliem": {
+        "name": "Herring with cottage cheese and potatoes"
+      },
+      "biguzis": {
+        "name": "\"Biguzis\"",
+        "description": "Layered rye bread dessert"
+      },
+      "ugunigais-huanito": {
+        "name": "\"Fiery Huanito\"",
+        "description": "Pork neck chop, peperoni"
+      },
+      "laimigais-paris": {
+        "name": "\"Happy couple\"",
+        "description": "Pork chop, cheese, garlic, paprika"
+      },
+      "karbonade-ar-sitake-senem": {
+        "name": "Chop with shiitake mushrooms",
+        "description": "Pork chop, shiitake sauce"
+      },
+      "ermanitis": {
+        "name": "\"Ērmanītis\"",
+        "description": "Pork chop, spices"
+      },
+      "kiploku-grauzdini-ar-siera-merci": {
+        "name": "Garlic croutons with cheese sauce"
+      },
+      "pirma-palidziba": {
+        "name": "\"First aid\"",
+        "description": "Sprat sandwich + 50 ml vodka"
+      },
+      "olivu-mix": {
+        "name": "Olive mix"
+      },
+      "melite-ar-merci": {
+        "name": "Beef tongue with sauce",
+        "description": "Boiled tongue with mustard sauce"
+      },
+      "garneles-caula": {
+        "name": "Prawns in shell"
+      },
+      "zacene-pie-jeb-ka": {
+        "name": "Cold platter \"Pie jeb kā\""
+      },
+      "svaigie-salati-ar-burrata": {
+        "name": "\"Fresh salad with burrata and cherry tomatoes\"",
+        "description": "Vegetables, burrata, pesto"
+      },
+      "klukste-darza": {
+        "name": "\"Hen in the garden\"",
+        "description": "Chicken fillet, vegetables, avocado, goat cheese, olives, olive oil"
+      },
+      "melisu": {
+        "name": "\"Mēlīšu\"",
+        "description": "Boiled tongue, egg, tomatoes, onion, mayonnaise, ketchup"
+      },
+      "ratsnama": {
+        "name": "\"Town Hall\"",
+        "description": "Romaine, cherry tomato, hard cheese, tiger prawns, grapes, dressing"
+      },
+      "ar-garnelem-pildits-avokado": {
+        "name": "Avocado stuffed with prawns"
+      },
+      "dienas-zupa": {
+        "name": "Soup of the day"
+      },
+      "gulaszupa-pagrabina-gaume": {
+        "name": "Goulash soup, Pagrabiņš style",
+        "description": "Pork, vegetables, tomato sauce"
+      },
+      "garnelu-zupa": {
+        "name": "Prawn soup",
+        "description": "Fresh salmon, prawns, cream"
+      },
+      "azijas-vira": {
+        "name": "Asian broth",
+        "description": "Prawns, vegetables, chilli"
+      },
+      "darzenu-rullisi-ar-siera-merci": {
+        "name": "Vegetable rolls with cheese sauce"
+      },
+      "burrata-ar-svaigajiem-salatiem": {
+        "name": "\"Burrata\" with fresh salad and cherry tomatoes"
+      },
+      "avokado-tartars": {
+        "name": "\"Avocado tartare\""
+      },
+      "kvinoja-ar-darzeniem-un-tofu": {
+        "name": "Quinoa with vegetables and tofu"
+      },
+      "vistas-galas-sasliks": {
+        "name": "Chicken shashlik"
+      },
+      "vista-ar-terijaki-merci": {
+        "name": "Chicken with teriyaki sauce",
+        "description": "Chicken fillet, teriyaki sauce"
+      },
+      "gulbja-laboratorija": {
+        "name": "\"Swan's laboratory\"",
+        "description": "Chicken fillet, mozzarella, basil pesto"
+      },
+      "dusmiga-karbonade": {
+        "name": "\"Angry chop\"",
+        "description": "Pork chop in steak sauce"
+      },
+      "gredzena-pavelnieks": {
+        "name": "\"Lord of the ring\"",
+        "description": "Pork neck chop in sweet rum glaze with paprika"
+      },
+      "bifsteks-ar-dizonas-sinepju-merci": {
+        "name": "Beefsteak with Dijon mustard sauce",
+        "description": "Beef + lamb"
+      },
+      "tels-kunga-prata": {
+        "name": "\"Calf of the Lord's mind\"",
+        "description": "Beef fillet with cognac sauce"
+      },
+      "steiks": {
+        "name": "Steak",
+        "description": "Beef fillet, spices"
+      },
+      "ceptas-tigergarneles": {
+        "name": "Fried tiger prawns"
+      },
+      "grilleta-forele": {
+        "name": "Grilled trout"
+      },
+      "bute-garnelu-merce": {
+        "name": "Flounder in prawn sauce"
+      },
+      "zandarts-ar-sitake-brokoli-risu-makaroniem": {
+        "name": "Pike-perch with shiitake, broccoli and rice noodles"
+      },
+      "zandarts-krejuma-merce": {
+        "name": "Pike-perch in cream sauce"
+      },
+      "saldejums-ar-ogu-merci": {
+        "name": "Ice cream with berry sauce"
+      },
+      "citronu-maskarpones-krems": {
+        "name": "Lemon mascarpone cream"
+      },
+      "karstais-saldejums": {
+        "name": "\"Hot\" ice cream",
+        "description": "Fried ice cream in Kellogg's flakes"
+      },
+      "pagrabina-gardais": {
+        "name": "\"Pagrabiņš treat\"",
+        "description": "Mascarpone cream with strawberries and marshmallow"
+      },
+      "variti-kartupeli": {
+        "name": "Boiled potatoes",
+        "description": "Included in the main course price"
+      },
+      "variti-cepti-kartupeli": {
+        "name": "Boiled-roasted potatoes",
+        "description": "Included in the main course price"
+      },
+      "fri-kartupeli": {
+        "name": "French fries",
+        "description": "Included in the main course price"
+      },
+      "risi": {
+        "name": "Rice",
+        "description": "Included in the main course price"
+      },
+      "svaigi-darzeni": {
+        "name": "Fresh vegetables",
+        "description": "Surcharge on the main course price €1.50"
+      },
+      "rivetu-kartupelu-kroketes": {
+        "name": "Grated potato croquettes",
+        "description": "Surcharge on the main course price €1.50"
+      },
+      "cepti-darzeni": {
+        "name": "Roasted vegetables",
+        "description": "Surcharge on the main course price €2.50"
+      },
+      "kecups": {
+        "name": "Ketchup"
+      },
+      "majoneze": {
+        "name": "Mayonnaise"
+      },
+      "kiploku-merce": {
+        "name": "Garlic sauce"
+      },
+      "steika-merce": {
+        "name": "Steak sauce"
+      },
+      "silta-siera-merce": {
+        "name": "Warm cheese sauce"
+      },
+      "kafija": {
+        "name": "Coffee"
+      },
+      "espresso": {
+        "name": "Espresso"
+      },
+      "kafija-ar-pienu": {
+        "name": "Coffee with milk"
+      },
+      "kafija-latte": {
+        "name": "Coffee \"Latte\""
+      },
+      "kapucino": {
+        "name": "Cappuccino"
+      },
+      "mineraludens-vichy": {
+        "name": "Mineral water \"Vichy\" 0.3 l"
+      },
+      "mineraludens-lielbata": {
+        "name": "Mineral water \"Lielbāta\" 0.75 l"
+      },
+      "pagrabina-galda-udens": {
+        "name": "Pagrabiņš table water 1 l"
+      },
+      "liepziedu-teja": {
+        "name": "Linden blossom tea"
+      },
+      "melna-zala-teja": {
+        "name": "Black, green tea"
+      },
+      "piparmetru-teja": {
+        "name": "Peppermint tea"
+      },
+      "auglu-teja": {
+        "name": "Fruit tea"
+      },
+      "kumelisu-teja": {
+        "name": "Chamomile tea"
+      },
+      "ingvera-teja-ar-citronu": {
+        "name": "Ginger tea with lemon"
+      },
+      "ledus-teja": {
+        "name": "Iced tea"
+      },
+      "medus": {
+        "name": "Honey"
+      },
+      "sula": {
+        "name": "Juice"
+      },
+      "dabiga-sula": {
+        "name": "Natural juice"
+      },
+      "saldejuma-kokteilis": {
+        "name": "Ice cream milkshake"
+      },
+      "cola-fanta-sprite-kvass": {
+        "name": "Cola, Fanta, Sprite, kvass"
+      },
+      "kvass-0-3": {
+        "name": "Kvass 0.3 l"
+      },
+      "kvass-0-5": {
+        "name": "Kvass 0.5 l"
+      },
+      "energijas-dzeriens": {
+        "name": "Energy drink"
+      },
+      "kefirs": {
+        "name": "Kefir"
+      },
+      "pikantais-kefirs": {
+        "name": "Spicy kefir"
+      },
+      "sidrs-0-3": {
+        "name": "Cider 0.3 l"
+      },
+      "sidrs-0-5": {
+        "name": "Cider 0.5 l"
+      },
+      "bezalkoholiskais-alus": {
+        "name": "Non-alcoholic beer"
+      },
+      "piebalgas-alus-0-3": {
+        "name": "Piebalga beer 0.3 l"
+      },
+      "piebalgas-alus-0-5": {
+        "name": "Piebalga beer 0.5 l"
+      },
+      "duna-kuldigas-pilsner": {
+        "name": "Duna \"Kuldīga Pilsner\" 0.4 l"
+      }
+    }
+  }
+}

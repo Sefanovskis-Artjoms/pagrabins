@@ -1,0 +1,26 @@
+.scroll-progress {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: var(--site-header-height, 7rem);
+  z-index: 45;
+  width: 6px;
+  pointer-events: none;
+  background-color: var(--outline-variant);
+}
+
+.scroll-progress__fill {
+  width: 100%;
+  min-height: 2px;
+  background-color: var(--primary);
+  box-shadow:
+    0 0 8px rgb(232 195 92 / 0.6),
+    0 0 20px rgb(232 195 92 / 0.25);
+  transition: height 0.08s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-progress__fill {
+    transition: none;
+  }
+}

@@ -1,0 +1,152 @@
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-lg);
+}
+
+.menu__group {
+  scroll-margin-top: var(--site-header-height, 7rem);
+}
+
+.menu__group-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.menu__group-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--outline-variant);
+}
+
+.menu__group-sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-md);
+}
+
+.menu__section {
+  scroll-margin-top: var(--site-header-height, 7rem);
+}
+
+.menu__section-title,
+.menu__subsection-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: var(--stack-sm);
+  font-family: var(--font-heading), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.menu__section-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.menu__subsection-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--on-surface);
+}
+
+.menu__section-title::after,
+.menu__subsection-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--outline-variant);
+}
+
+.menu__section-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-md);
+  list-style: none;
+}
+
+.menu__item-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.menu__item-name {
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--on-surface);
+}
+
+.menu__item-allergens {
+  padding-left: 0.15em;
+  font-size: 0.65em;
+  font-weight: 500;
+  line-height: 0;
+  color: var(--on-surface-variant);
+  vertical-align: super;
+}
+
+.menu__item-dots {
+  flex: 1;
+  min-width: 1.5rem;
+  align-self: center;
+  border-bottom: 1px dotted var(--outline);
+  opacity: 0.65;
+  transform: translateY(0.1rem);
+}
+
+.menu__item-price {
+  flex-shrink: 0;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--primary);
+}
+
+.menu__item-description {
+  margin: 0;
+  padding-top: 0.1rem;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.375rem;
+  color: var(--on-surface-variant);
+}
+
+.menu__allergens-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.menu__allergens-item {
+  display: flex;
+  gap: 0.5rem;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: var(--on-surface-variant);
+}
+
+.menu__allergens-number {
+  flex-shrink: 0;
+  min-width: 1.5rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--primary);
+}

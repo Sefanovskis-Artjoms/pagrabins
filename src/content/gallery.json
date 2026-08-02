@@ -1,0 +1,103 @@
+{
+  "columns": 4,
+  "items": [
+    {
+      "id": "pagrabins-no-malas",
+      "file": "pagrabins-no-malas.jpg",
+      "altKey": "pagrabins-no-malas",
+      "colSpan": 2,
+      "rowSpan": 1
+    },
+    {
+      "id": "pagrabins-pa-nakti",
+      "file": "pagrabins-pa-nakti.jpg",
+      "altKey": "pagrabins-pa-nakti",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "galds-ar-naskiem",
+      "file": "galds ar naskiem.jpg",
+      "altKey": "galds-ar-naskiem",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "galds-ieksa",
+      "file": "galds-ieksa.jpg",
+      "altKey": "galds-ieksa",
+      "colSpan": 1,
+      "rowSpan": 2
+    },
+    {
+      "id": "viesmili-pie-letes",
+      "file": "viesmili-pie-letes.jpg",
+      "altKey": "viesmili-pie-letes",
+      "colSpan": 2,
+      "rowSpan": 1
+    },
+    {
+      "id": "deserts",
+      "file": "deserts.jpg",
+      "altKey": "deserts",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "koktelis",
+      "file": "koktelis.jpg",
+      "altKey": "koktelis",
+      "colSpan": 1,
+      "rowSpan": 2
+    },
+    {
+      "id": "terase",
+      "file": "terase.jpg",
+      "altKey": "terase",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "svetku-galds",
+      "file": "svetku-galds.jpg",
+      "altKey": "svetku-galds",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "edienkartes-vakods",
+      "file": "edienkartes-vakods.jpg",
+      "altKey": "edienkartes-vakods",
+      "colSpan": 1,
+      "rowSpan": 2
+    },
+    {
+      "id": "kokteli",
+      "file": "kokteli.jpg",
+      "altKey": "kokteli",
+      "colSpan": 1,
+      "rowSpan": 2
+    },
+    {
+      "id": "sturitis",
+      "file": "sturitis.png",
+      "altKey": "sturitis",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "bankets",
+      "file": "bankets.jpg",
+      "altKey": "bankets",
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "glauns-ediens",
+      "file": "glauns-ediens.jpg",
+      "altKey": "glauns-ediens",
+      "colSpan": 1,
+      "rowSpan": 1
+    }
+  ]
+}

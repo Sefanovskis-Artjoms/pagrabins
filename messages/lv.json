@@ -1,0 +1,418 @@
+{
+  "Metadata": {
+    "title": "Pagrabiņš",
+    "description": "Maza kafejnīca ar siltu atmosfēru."
+  },
+  "Header": {
+    "home": "Sākums",
+    "menu": "Ēdienkarte"
+  },
+  "Footer": {
+    "authorLabel": "Mājaslapas autors"
+  },
+  "Language": {
+    "label": "Valoda",
+    "close": "Aizvērt",
+    "names": {
+      "lv": "Latviešu",
+      "en": "Angļu"
+    }
+  },
+  "Home": {
+    "label": "Kafejnīca",
+    "title": "Pagrabiņš",
+    "hashtag1": "#Laimīgie laiku neskaita,",
+    "hashtag2": "#Laimīgie prot to izmantot, baudīt...",
+    "ctaMenu": "Skatīt ēdienkarti",
+    "videoTitle": "Pagrabiņš — video",
+    "visit": {
+      "title": "Apmeklējiet mūs",
+      "hoursLabel": "Laiki",
+      "hours": {
+        "monThu": { "days": "P–C", "time": "11–22" },
+        "friSat": { "days": "Pk–S", "time": "11–24" },
+        "sun": { "days": "Sv", "time": "11–21" }
+      },
+      "addressLabel": "Mūsu adrese",
+      "address": "Baznīcas iela 5, Kuldīga",
+      "copyAddress": "Kopēt adresi",
+      "copied": "Adrese nokopēta",
+      "mapLabel": "Kafejnīcas atrašanās vieta kartē",
+      "contacts": {
+        "title": "Kontakti",
+        "phoneLabel": "Tālrunis",
+        "mobileLabel": "Mob. tālrunis",
+        "emailLabel": "E-pasts",
+        "facebookLabel": "Facebook"
+      },
+      "goodToKnow": {
+        "title": "Labi zināt",
+        "points": [
+          "Pēc klientu vēlmēm uzturēties mūsu telpās pēc darba laika — samaksa 20,00 €/h.",
+          "Ja vēlaties lietot savus alkoholiskos dzērienus, samaksa — 15,00 €/h.",
+          "Par bērnu drošību atbild vecāki!"
+        ]
+      }
+    },
+    "gallery": {
+      "title": "Galerija",
+      "lightbox": {
+        "close": "Aizvērt",
+        "previous": "Iepriekšējais attēls",
+        "next": "Nākamais attēls"
+      },
+      "items": {
+        "pagrabins-no-malas": "Restorāna “Pagrabiņš” ēka no malas",
+        "pagrabins-pa-nakti": "Restorāns “Pagrabiņš” vakara apgaismojumā",
+        "galds-ar-naskiem": "Glauni pasniegta uzkoda pie klāta galda",
+        "galds-ieksa": "Servēts galds restorāna iekštelpās",
+        "viesmili-pie-letes": "Viesmīļi pie bāra letes",
+        "deserts": "Restorāna deserts",
+        "koktelis": "Bārmeņa pagatavots koktelis",
+        "terase": "Āra terase",
+        "svetku-galds": "Svētkiem klāts galds",
+        "edienkartes-vakods": "Restorāna ēdienkarte",
+        "kokteli": "Trīs kokteiļi",
+        "sturitis": "Mājīgs stūrītis restorānā",
+        "bankets": "Banketam sagatavota zāle",
+        "glauns-ediens": "Glauni pasniegts ēdiens"
+      }
+    }
+  },
+  "MenuPage": {
+    "title": "Ēdienkarte",
+    "categories": {
+      "tab": "Kategorijas",
+      "title": "Kategorijas",
+      "close": "Aizvērt"
+    },
+    "sections": {
+      "pagrabina-izlase": "Pagrabiņa izlase",
+      "kuldigas-garsa": "Kuldīgas garša",
+      "pagrabina-klasika": "Pagrabiņa klasika",
+      "aukstas-uzkodas": "Aukstās uzkodas",
+      "salati": "Salāti",
+      "zupas": "Zupas",
+      "vegetarie": "Veģetārie ēdieni",
+      "siltie-galas": "Siltie gaļas ēdieni",
+      "siltie-zivju": "Siltie zivju ēdieni",
+      "saldie": "Saldie ēdieni",
+      "piedevas": "Piedevas",
+      "mercites": "Mērcītes",
+      "dzerieni": "Dzērieni",
+      "allergeni": "Alergēni"
+    },
+    "allergens": {
+      "title": "Produkti, kas satur alergēnus",
+      "1": "Labība, kas satur lipekli",
+      "2": "Vēžveidīgie produkti",
+      "3": "Olas un to produkti",
+      "4": "Zivis un to produkti",
+      "5": "Rieksti un to produkti",
+      "6": "Sojas pupas un to produkti",
+      "7": "Piens un tā produkti",
+      "8": "Selerijas un to produkti",
+      "9": "Sinepes un to produkti",
+      "10": "Sezama sēklas un to produkti",
+      "11": "Gliemji un to produkti"
+    },
+    "items": {
+      "kurzemes-skabputra": {
+        "name": "Kurzemes skābputra",
+        "description": "Putraimi, rūgušpiens"
+      },
+      "podins-zirnitis": {
+        "name": "Podiņš \"Zirnītis\"",
+        "description": "Pelēkie zirņi, kūpināta cūkas krūtiņa, krējums"
+      },
+      "bukstinputra-ar-bekonu": {
+        "name": "Bukstiņputra ar bekonu"
+      },
+      "silke-ar-biezpienu-un-kartupeliem": {
+        "name": "Siļķe ar biezpienu un kartupeļiem"
+      },
+      "biguzis": {
+        "name": "\"Biguzis\"",
+        "description": "Rupjmaizes kārtojums"
+      },
+      "ugunigais-huanito": {
+        "name": "\"Ugunīgais Huanito\"",
+        "description": "C/g kakla karbonāde, peperoni"
+      },
+      "laimigais-paris": {
+        "name": "\"Laimīgais pāris\"",
+        "description": "C/g karbonāde, siers, ķiploki, paprika"
+      },
+      "karbonade-ar-sitake-senem": {
+        "name": "Karbonāde ar šitake sēnēm",
+        "description": "C/g karbonāde, šitaki mērce"
+      },
+      "ermanitis": {
+        "name": "\"Ērmanītis\"",
+        "description": "C/g karbonāde, garšvielas"
+      },
+      "kiploku-grauzdini-ar-siera-merci": {
+        "name": "Ķiploku grauzdiņi ar siera mērci"
+      },
+      "pirma-palidziba": {
+        "name": "\"Pirmā palīdzība\"",
+        "description": "Ķilavmaize + 50 gr. vodka"
+      },
+      "olivu-mix": {
+        "name": "Olīvu mix"
+      },
+      "melite-ar-merci": {
+        "name": "Mēlīte ar mērci",
+        "description": "Vārīta mēlīte ar sinepju mērci"
+      },
+      "garneles-caula": {
+        "name": "Garneles čaulā"
+      },
+      "zacene-pie-jeb-ka": {
+        "name": "Zacene \"Pie jeb kā\""
+      },
+      "svaigie-salati-ar-burrata": {
+        "name": "\"Svaigie salāti ar burrata sieru un ķiršu tomātiem\"",
+        "description": "Dārzeņi, burrata siers, pesto mērce"
+      },
+      "klukste-darza": {
+        "name": "\"Klukste dārzā\"",
+        "description": "Vistas fileja, dārzeņi, avokado, kazas siers, olīvas, olīveļļa"
+      },
+      "melisu": {
+        "name": "\"Mēlīšu\"",
+        "description": "Vārīta mēle, ola, tomāti, sīpols, majonēze, kečups"
+      },
+      "ratsnama": {
+        "name": "\"Rātsnama\"",
+        "description": "Romiešu salāti, ķiršu tomāts, parito siers, tīģergarneles, vīnogas, mērce"
+      },
+      "ar-garnelem-pildits-avokado": {
+        "name": "Ar garnelēm pildīts avokado"
+      },
+      "dienas-zupa": {
+        "name": "Dienas zupa"
+      },
+      "gulaszupa-pagrabina-gaume": {
+        "name": "Gulašzupa Pagrabiņa gaumē",
+        "description": "Cūkgaļa, dārzeņi, tomātu mērce"
+      },
+      "garnelu-zupa": {
+        "name": "Garneļu zupa",
+        "description": "Svaigs lasis, garneles, saldais krējums"
+      },
+      "azijas-vira": {
+        "name": "Āzijas vira",
+        "description": "Garneles, dārzeņi, chilli"
+      },
+      "darzenu-rullisi-ar-siera-merci": {
+        "name": "Dārzeņu rullīši ar siera mērci"
+      },
+      "burrata-ar-svaigajiem-salatiem": {
+        "name": "\"Burrata\" ar svaigajiem salātiem un ķiršu tomātiem"
+      },
+      "avokado-tartars": {
+        "name": "\"Avokado tartars\""
+      },
+      "kvinoja-ar-darzeniem-un-tofu": {
+        "name": "Kvinoja ar dārzeņiem un tofu sieru"
+      },
+      "vistas-galas-sasliks": {
+        "name": "Vistas gaļas šašliks"
+      },
+      "vista-ar-terijaki-merci": {
+        "name": "Vista ar terijaki mērci",
+        "description": "Vistas fileja, terijaki mērce"
+      },
+      "gulbja-laboratorija": {
+        "name": "\"Gulbja laboratorija\"",
+        "description": "Vistas fileja, mocarella, bazilika pesto"
+      },
+      "dusmiga-karbonade": {
+        "name": "\"Dusmīgā karbonāde\"",
+        "description": "C/g karbonāde steika mērcē"
+      },
+      "gredzena-pavelnieks": {
+        "name": "\"Gredzena pavēlnieks\"",
+        "description": "C/g kakla karbonāde saldā ruma glazūrā ar papriku"
+      },
+      "bifsteks-ar-dizonas-sinepju-merci": {
+        "name": "Bifšteks ar Dižonas sinepju mērci",
+        "description": "Liellopa gaļa + jēra gaļa"
+      },
+      "tels-kunga-prata": {
+        "name": "\"Teļš Kunga prātā\"",
+        "description": "Liellopa gaļas fileja ar konjaka mērci"
+      },
+      "steiks": {
+        "name": "Steiks",
+        "description": "Liellopa fileja, garšvielas"
+      },
+      "ceptas-tigergarneles": {
+        "name": "Ceptas tīģergarneles"
+      },
+      "grilleta-forele": {
+        "name": "Grillēta forele"
+      },
+      "bute-garnelu-merce": {
+        "name": "Bute garneļu mērcē"
+      },
+      "zandarts-ar-sitake-brokoli-risu-makaroniem": {
+        "name": "Zandarts ar šitake, brokoļiem un rīsu makaroniem"
+      },
+      "zandarts-krejuma-merce": {
+        "name": "Zandarts krējuma mērcē"
+      },
+      "saldejums-ar-ogu-merci": {
+        "name": "Saldējums ar ogu mērci"
+      },
+      "citronu-maskarpones-krems": {
+        "name": "Citronu maskarpones krēms"
+      },
+      "karstais-saldejums": {
+        "name": "\"Karstais\" saldējums",
+        "description": "Cepts saldējums Kellogg's pārslās"
+      },
+      "pagrabina-gardais": {
+        "name": "\"Pagrabiņa gardais\"",
+        "description": "Mascarpone krēms ar zemenēm un zefīru"
+      },
+      "variti-kartupeli": {
+        "name": "Vārīti kartupeļi",
+        "description": "Iekļauti pamatēdiena cenā"
+      },
+      "variti-cepti-kartupeli": {
+        "name": "Vārīti cepti kartupeļi",
+        "description": "Iekļauti pamatēdiena cenā"
+      },
+      "fri-kartupeli": {
+        "name": "Frī kartupeļi",
+        "description": "Iekļauti pamatēdiena cenā"
+      },
+      "risi": {
+        "name": "Rīsi",
+        "description": "Iekļauti pamatēdiena cenā"
+      },
+      "svaigi-darzeni": {
+        "name": "Svaigi dārzeņi",
+        "description": "Piemaksa pie pamatēdiena cenas 1,50 €"
+      },
+      "rivetu-kartupelu-kroketes": {
+        "name": "Rīvētu kartupeļu kroketes",
+        "description": "Piemaksa pie pamatēdiena cenas 1,50 €"
+      },
+      "cepti-darzeni": {
+        "name": "Cepti dārzeņi",
+        "description": "Piemaksa pie pamatēdiena cenas 2,50 €"
+      },
+      "kecups": {
+        "name": "Kečups"
+      },
+      "majoneze": {
+        "name": "Majonēze"
+      },
+      "kiploku-merce": {
+        "name": "Ķiploku mērce"
+      },
+      "steika-merce": {
+        "name": "Steika mērce"
+      },
+      "silta-siera-merce": {
+        "name": "Siltā siera mērce"
+      },
+      "kafija": {
+        "name": "Kafija"
+      },
+      "espresso": {
+        "name": "Espresso"
+      },
+      "kafija-ar-pienu": {
+        "name": "Kafija ar pienu"
+      },
+      "kafija-latte": {
+        "name": "Kafija \"Latte\""
+      },
+      "kapucino": {
+        "name": "Kapučīno"
+      },
+      "mineraludens-vichy": {
+        "name": "Minerālūdens \"Vichy\" 0,3 l"
+      },
+      "mineraludens-lielbata": {
+        "name": "Minerālūdens \"Lielbāta\" 0,75 l"
+      },
+      "pagrabina-galda-udens": {
+        "name": "Pagrabiņa galda ūdens 1 l"
+      },
+      "liepziedu-teja": {
+        "name": "Liepziedu tēja"
+      },
+      "melna-zala-teja": {
+        "name": "Melnā, zaļā tēja"
+      },
+      "piparmetru-teja": {
+        "name": "Piparmētru tēja"
+      },
+      "auglu-teja": {
+        "name": "Augļu tēja"
+      },
+      "kumelisu-teja": {
+        "name": "Kumelīšu tēja"
+      },
+      "ingvera-teja-ar-citronu": {
+        "name": "Ingvera tēja ar citronu"
+      },
+      "ledus-teja": {
+        "name": "Ledus tēja"
+      },
+      "medus": {
+        "name": "Medus"
+      },
+      "sula": {
+        "name": "Sula"
+      },
+      "dabiga-sula": {
+        "name": "Dabīgā sula"
+      },
+      "saldejuma-kokteilis": {
+        "name": "Saldējuma kokteilis"
+      },
+      "cola-fanta-sprite-kvass": {
+        "name": "Cola, Fanta, Sprite, Kvass"
+      },
+      "kvass-0-3": {
+        "name": "Kvass 0,3 l"
+      },
+      "kvass-0-5": {
+        "name": "Kvass 0,5 l"
+      },
+      "energijas-dzeriens": {
+        "name": "Enerģijas dzēriens"
+      },
+      "kefirs": {
+        "name": "Kefīrs"
+      },
+      "pikantais-kefirs": {
+        "name": "Pikantais kefīrs"
+      },
+      "sidrs-0-3": {
+        "name": "Sidrs 0,3 l"
+      },
+      "sidrs-0-5": {
+        "name": "Sidrs 0,5 l"
+      },
+      "bezalkoholiskais-alus": {
+        "name": "Bezalkoholiskais alus"
+      },
+      "piebalgas-alus-0-3": {
+        "name": "Piebalgas alus 0,3 l"
+      },
+      "piebalgas-alus-0-5": {
+        "name": "Piebalgas alus 0,5 l"
+      },
+      "duna-kuldigas-pilsner": {
+        "name": "Duna \"Kuldīgas Pilsner\" 0,4 l"
+      }
+    }
+  }
+}

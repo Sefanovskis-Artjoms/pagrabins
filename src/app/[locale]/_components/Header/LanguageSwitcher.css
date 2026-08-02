@@ -1,0 +1,110 @@
+.lang-switch {
+  flex-shrink: 0;
+}
+
+.lang-switch__trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.2s ease;
+}
+
+.lang-switch__trigger:hover {
+  opacity: 0.8;
+}
+
+.lang-switch__trigger[data-state="open"] {
+  opacity: 0.8;
+}
+
+.lang-switch__menu {
+  z-index: 140;
+  min-width: 11rem;
+  overflow: hidden;
+  border: 1px solid var(--outline-variant);
+  border-radius: var(--radius-lg);
+  background-color: var(--surface-container-high);
+  padding-block: 0.25rem;
+  box-shadow: var(--shadow-glow);
+  animation: lang-switch-menu-in 0.15s ease;
+}
+
+@keyframes lang-switch-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lang-switch__option {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 1rem;
+  min-height: 2.75rem;
+  border: none;
+  background: transparent;
+  text-align: left;
+  color: var(--on-surface-variant);
+  cursor: pointer;
+  outline: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.lang-switch__option[data-highlighted] {
+  color: var(--on-surface);
+  background-color: var(--surface-container-low);
+}
+
+.lang-switch__option--selected {
+  color: var(--primary);
+  background-color: var(--surface-container-low);
+}
+
+.lang-switch__option--selected[data-highlighted] {
+  color: var(--primary);
+  background-color: var(--surface-container-low);
+}
+
+.lang-switch__name {
+  font-weight: 500;
+}
+
+.flag {
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 0.125rem;
+}
+
+.flag--trigger {
+  width: 36px;
+  height: 18px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
+  outline: 1px solid rgb(0 0 0 / 0.2);
+  pointer-events: none;
+}
+
+.flag--option {
+  width: 36px;
+  height: 18px;
+  outline: 1px solid rgb(0 0 0 / 0.15);
+}
