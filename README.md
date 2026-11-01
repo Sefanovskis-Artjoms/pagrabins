@@ -6,6 +6,8 @@ That matches how many of us actually choose where to eat: among several “good 
 
 The site has two pages: a **home** page with general information and a **menu** page with the full offering.
 
+**Demo:** [pagrabins.artjoms200.workers.dev](https://pagrabins.artjoms200.workers.dev/)
+
 ## Tech stack
 
 - **Framework:** [Next.js](https://nextjs.org) (App Router) / React 19
